@@ -22,7 +22,7 @@ if(isset($_POST['submit'])){
 
 	$sc=$conn->query($sql);
 	if($conn->query($sql)){
-		echo "insert";
+		header("location:../../mprint.php");
 
 	}
 	else{

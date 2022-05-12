@@ -1,7 +1,7 @@
 <?php
-
+ob_start();
 include("../conn.php");
-
+session_start();
  ?>
 
 <?php 
@@ -18,7 +18,8 @@ function login($user){
 	 if($sc->execute()){
 	 	$result=$sc->get_result();
 	 	if($result->num_rows>0){
-            //$row=$result->fetch_assoc();
+            $row=$result->fetch_assoc();
+            $_SESSION["login_dtl"] = $row;
             return true;
        }
 	 }

@@ -14,7 +14,7 @@ if(isset($_POST['submit'])){
       $in->add($user);
       if($in){
      	
-     	header("location:../product/home.php");
+     	header("location:../login/login.php");
 
       }
    }

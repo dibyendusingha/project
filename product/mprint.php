@@ -37,7 +37,7 @@
                            <a class="nav-link" href="home.php">Home <span class="sr-only">(current)</span></a>
                         </li>
                           <li class="nav-item">
-                           <a class="nav-link" href="index.html">Edit <span class="sr-only">(current)</span></a>
+                           <a class="nav-link" href="edit/edit.php">Edit <span class="sr-only">(current)</span></a>
                         </li>
                         
                      </ul>
@@ -65,7 +65,7 @@
          <div class="container">
             <div class="heading_container heading_center">
                <h2>
-                  THANK YOU CHOOSE OUR WEB SIDE..
+                  THANK YOU CHOOSE OUR WEB SITE..
                </h2>
             </div>
             <div id="carouselExample3Controls" class="carousel slide" data-ride="carousel">

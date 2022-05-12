@@ -1,3 +1,9 @@
+<?php 
+ob_start();
+session_start();
+//print_r($loginall_dtl=$_SESSION['login_dtl']);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

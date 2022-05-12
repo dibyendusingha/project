@@ -1,3 +1,17 @@
+<?php
+error_reporting(0);
+// include("v.php");
+// session_start();
+
+//echo $_SESSION['msg'];
+
+      echo $_GET['msg'];
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,8 +47,10 @@
 				<form class="login100-form validate-form" method="post" action="v.php">
 					<span class="login100-form-title">
 						Member Login
-					</span>
 
+					</span>
+					<div align="center"><?php  echo $_GET['msg']; ?></div>
+					
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
 						<input class="input100" type="text" name="femail" placeholder="Email">
 						<span class="focus-input100"></span>
@@ -57,17 +73,8 @@
 						</button>
 					</div>
 
-					<div class="text-center p-t-12">
-						<span class="txt1">
-							Forgot
-						</span>
-						<a class="txt2" href="#">
-							Username / Password?
-						</a>
-					</div>
-
 					<div class="text-center p-t-136">
-						<a class="txt2" href="#">
+						<a class="txt2" href="../regstration/reg.php">
 							Create your Account
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>

@@ -35,6 +35,7 @@ function validateForm() {
   }
   if( password!=secondpassword ){  
     document.getElementById('password_txt').innerHTML = " **<div class='error_color'>password must be same!</div>";
+    //alert("Pass not match");
     return false;  
     }  
 
