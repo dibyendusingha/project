@@ -1,3 +1,4 @@
+
 <?php 
 $conn=new mysqli("localhost","root","","clg_pro");
 if($conn->connect_error){
@@ -10,3 +11,5 @@ else{
 
 
 ?>
+
+
